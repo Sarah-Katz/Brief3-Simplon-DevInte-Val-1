@@ -9,43 +9,40 @@ h1 {
 	font-family:'Abril Fatface', cursive;
 }
 
-/* Header NAV */
-nav ul{
-	padding: 0px;
-	margin: 0px;
-	list-style-type: none;
-	position: fixed;
+/*Flex header*/
+
+.box {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 100%;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-nav li{
-	display: inline-block;
-	margin: 0px;
-	padding: 0px;
-	width: 90px;
-	height:60px;
-	text-align: center;
-	font-family: "Arial Black";
-	font-size: 14px;	
-    line-height: 60px;
-	
+nav {
+    align-self: center;
+    align-items: center;
+    display: block;
+
 }
 
-nav li a{
-	display:block;
-	text-decoration: none;
+ul {
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
 	color: grey;
 }
 
-
-header{
-    display: flex;
-}
-
-nav{
-    margin-left: 45%;
-    margin-top: 5%;
-}
-
-nav li a:hover{
-    color: blue;
+a:hover {
+        color: blue;
 }
