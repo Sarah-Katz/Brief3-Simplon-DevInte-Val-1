@@ -9,6 +9,7 @@ h1 {
     font-family: 'Abril Fatface', cursive;
     font-size: 36px;
     margin: 0%;
+    color: palevioletred;
 }
 
 form {
@@ -22,7 +23,12 @@ textarea {
 .bouton {
     display: block;
     margin: auto;
-    background-color: blueviolet;
+    background-color: rgba(216, 112, 147, 0.7);
+    margin-bottom: 3%;
+    border: none;
+    padding: 5px;
+    border-radius: 30%;
+    font-family:'Montserrat', sans-serif;
 }
 
 label{
@@ -56,7 +62,7 @@ li {
     display: inline;
     margin-left: 20px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 a {
@@ -65,5 +71,85 @@ a {
 }
 
 a:hover {
-        color: blue;
+        color: rgb(113, 43, 226);
+}
+
+  /* MAIN (social-network) but */
+  .social-network-icon{
+    margin: auto;
+	height: 100px;
+	width: 75%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+ #Twitter{
+	background-color: #00A2F5;
+	width: 190px;
+	height: 60px;
+	display: flex;
+}
+
+
+#Linkedin{
+    background-color: #0176B4;
+	width: 190px;
+	height: 60px;
+	display: flex;
+}
+
+#Medium{
+	background-color: rgb(0, 0, 0);
+	width: 190px;
+	height: 60px;
+	display: flex;
+}
+
+#Twitter img{
+	width: 40px;
+	height: 20px;
+	margin: 0;
+	padding-left: 10%;
+	padding-top: 10%;
+}
+
+#Twitter p{
+	font-size: 12px;
+	padding-top: 12%;
+	padding-left: 9%;
+	margin: 0;
+	color: white;
+}
+
+#Linkedin img{
+	width: 50px;
+	height: 30px;
+	margin: 0;
+	padding-left: 10%;
+	padding-top: 8%;
+}
+
+#Linkedin p{
+	font-size: 12px;
+	padding-top: 12%;
+	padding-left: 7%;
+	margin: 0;
+	color: white;
+}
+
+#Medium img{
+	width: 50px;
+	height: 30px;
+	margin: 0;
+	padding-left: 10%;
+	padding-top: 8%;
+}
+
+#Medium p{
+	font-size: 12px;
+	padding-top: 12%;
+	padding-left: 7%;
+	margin: 0;
+	color: white;
 }
