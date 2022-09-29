@@ -2,6 +2,32 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding-left: 20%;
     padding-right: 20%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+    margin: 0%;
+}
+
+form {
+    text-align: left;
+}
+
+textarea {
+    width: 100%;
+}
+
+.bouton {
+    display: block;
+    margin: auto;
+    background-color: blueviolet;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
 }
 
 /*Flex header*/
