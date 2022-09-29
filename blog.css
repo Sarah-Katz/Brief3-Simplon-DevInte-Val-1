@@ -1,0 +1,15 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+nav {
+    align-self: flex-end;
+}
+
+ul {
+    list-style: none
+}
