@@ -2,6 +2,11 @@ body{
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-family:'Abril Fatface', cursive;
 }
 
 /* Header NAV */
@@ -28,8 +33,7 @@ nav li{
 nav li a{
 	display:block;
 	text-decoration: none;
-	color: 
-grey;
+	color: grey;
 }
 
 

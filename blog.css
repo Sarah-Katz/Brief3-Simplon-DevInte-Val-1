@@ -13,3 +13,12 @@ nav {
 ul {
     list-style: none
 }
+
+a {
+    text-decoration: none;
+	color: grey;
+}
+
+a:hover {
+        color: blue;
+}
