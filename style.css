@@ -166,5 +166,30 @@ span{
 
 .conteneur2{
 	display: flex;
+	flex-wrap: wrap;
+	gap: 2%;
+	margin-top: 30px;
 }
 
+.conteneur2 div{
+	flex: 49%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.conteneur2 div img{
+	width: 100%;
+}
+
+.gris{
+	color: rgb(61, 59, 59);
+	font-weight: bold;
+	font-size: 13px;
+}
+
+h3{
+	color: palevioletred;
+	font-weight: bolder;
+	font-size: 25px;
+	margin: 0;
+}
