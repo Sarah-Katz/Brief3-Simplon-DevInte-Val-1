@@ -18,6 +18,20 @@ h2, h3 {
     padding-bottom: 25px;
 }
 
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    color: palevioletred;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
 p {
     display: block;
     font-size: 20px;
@@ -74,17 +88,20 @@ h1 {
 }
 
 .conteneur1 {
+    margin-top: 100px;
     display: flex;
+    padding: 0px;
+    height: 350px;
 }
 
 .conteneur1-child2 img {
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    margin-left: 22%;
 }
 
 .conteneur1-child1 p {
-    width: 80%;
-    font-size: 18px;
+    flex: 80%;
+    justify-content: space-between;
 }
 
 /* MAIN (social-network) but */
