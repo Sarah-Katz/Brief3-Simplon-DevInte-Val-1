@@ -170,6 +170,7 @@ span{
 	flex-wrap: wrap;
 	gap: 2%;
 	margin-top: 10%;
+	text-align: justify;
 }
 
 .conteneur2 div{
