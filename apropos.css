@@ -30,7 +30,7 @@ li {
     display: inline;
     margin-left: 20px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 a {
@@ -39,5 +39,5 @@ a {
 }
 
 a:hover {
-        color: blue;
+        color: rgb(113, 43, 226);
 }

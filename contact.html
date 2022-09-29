@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -21,5 +22,41 @@
             </nav>
         </div>
     </header>
+    <main>
+        <h1>FORMULAIRE DE CONTACT</h1>
+        <p>Merci de remplir ce formulaire afin de me contacter via ma boite mail</p>
+        <form method="get" action="traitement.php">
+            <label for="pseudo">Pseudonyme :</label>
+            <input type="text" id="pseudo" required maxlength="50"><br><br>
+            <label for="mail">Adresse mail :</label>
+            <input type="email" id="mail" required placeholder="exemple@votremail.com" ><br><br>
+            <label for="objet">Objet du message :</label>
+            <input type="text" id="objet" required maxlength="50"><br><br>
+            <label for="message">Votre message :</label>
+            <textarea id="message" cols="30" rows="9" required maxlength="1000"></textarea><br><br>
+            <input class="bouton" type="submit">
+        </form>
+        <p>Je suis également disponible sur ces réseaux :</p>
+        <div class="social-network-icon">
+            <a href="https://twitter.com/Donzer_French">
+                <div id="Twitter">
+                    <img src="https://logo-marque.com/wp-content/uploads/2020/04/Twitter-Embl%C3%A8me.png"
+                        alt="twitter-logo" />
+                    <p>TWITTER</p>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/thomas-lemay-78b50b216/">
+            <div id="Linkedin">
+                <img src="https://blog.waalaxy.com/wp-content/uploads/2021/01/LinkedIn-Symbole.png" alt="linkd">
+                <p>LINKEDIN</p>
+            </div>
+            </a>
+            <a href="#">
+            <div id="Medium">
+                <img src="https://cdn.mos.cms.futurecdn.net/uazw6gFQuEC29mxMM55Tpb-1200-80.jpg" alt="medium">
+                <p>MEDIUM</p>
+            </div></a>
+        </div>
+    </main>
 </body>
 </html>
