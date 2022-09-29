@@ -5,10 +5,6 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-	font-family:'Abril Fatface', cursive;
-}
-
 /* Header NAV */
 nav ul{
 	padding: 0px;
@@ -48,4 +44,9 @@ nav{
 
 nav li a:hover{
     color: blue;
+}
+
+/* MAIN conteneur1 */
+h1 {
+	font-family:'Abril Fatface', cursive;
 }
