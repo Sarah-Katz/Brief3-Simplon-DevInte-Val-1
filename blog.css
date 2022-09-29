@@ -4,6 +4,8 @@ body {
 
 header {
     display: flex;
+    flex: 100%;
+    flex-direction: row;
 }
 
 nav {
