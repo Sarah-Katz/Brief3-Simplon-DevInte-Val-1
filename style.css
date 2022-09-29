@@ -1,8 +1,7 @@
-body{
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 0;
-	font-family: 'Montserrat', sans-serif;
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 h1 {
