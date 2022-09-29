@@ -1,112 +1,112 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    padding-left: 20%;
-    padding-right: 20%;
-    text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 20%;
+	padding-right: 20%;
+	text-align: center;
 }
 
 h1 {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 36px;
-    margin: 0%;
-    color: palevioletred;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 36px;
+	font-weight: 700;
+	margin: 0%;
+	color: palevioletred;
 }
 
 form {
-    text-align: left;
+	text-align: left;
 }
 
 textarea {
-    width: 100%;
+	width: 100%;
 }
 
 .bouton {
-    display: block;
-    margin: auto;
-    background-color: rgba(216, 112, 147, 0.7);
-    margin-bottom: 3%;
-    border: none;
-    padding: 5px;
-    border-radius: 30%;
-    font-family:'Montserrat', sans-serif;
+	display: block;
+	margin: auto;
+	background-color: rgba(216, 112, 147, 0.7);
+	margin-bottom: 3%;
+	border: none;
+	padding: 5px;
+	border-radius: 30%;
+	font-family: 'Montserrat', sans-serif;
 }
 
-label{
-    display: block;
-    margin-bottom: 5px;
+label {
+	display: block;
+	margin-bottom: 5px;
 }
 
 /*Flex header*/
 
 .box {
-    display: flex;
-    flex-wrap: nowrap;
-    flex: 100%;
-    flex-direction: row;
-    justify-content: space-between;
+	display: flex;
+	flex-wrap: nowrap;
+	flex: 100%;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 nav {
-    align-self: center;
-    align-items: center;
-    display: block;
+	align-self: center;
+	align-items: center;
+	display: block;
 
 }
 
 ul {
-    list-style: none;
-    align-items: center;
+	list-style: none;
+	align-items: center;
 }
 
 li {
-    display: inline;
-    margin-left: 20px;
-    font-size: 14px;
-    font-weight: bold;
+	display: inline;
+	margin-left: 20px;
+	font-size: 14px;
+	font-weight: bold;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 	color: grey;
 }
 
 a:hover {
-        color: rgb(113, 43, 226);
+	color: rgb(113, 43, 226);
 }
 
-  /* MAIN (social-network) but */
-  .social-network-icon{
-    margin: auto;
+/* MAIN (social-network) but */
+.social-network-icon {
+	margin: auto;
 	height: 100px;
-	width: 75%;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
- #Twitter{
+#Twitter {
 	background-color: #00A2F5;
 	width: 190px;
 	height: 60px;
 	display: flex;
 }
 
-
-#Linkedin{
-    background-color: #0176B4;
+#Linkedin {
+	background-color: #0176B4;
 	width: 190px;
 	height: 60px;
 	display: flex;
 }
 
-#Medium{
+#Medium {
 	background-color: rgb(0, 0, 0);
 	width: 190px;
 	height: 60px;
 	display: flex;
 }
 
-#Twitter img{
+#Twitter img {
 	width: 40px;
 	height: 20px;
 	margin: 0;
@@ -114,7 +114,7 @@ a:hover {
 	padding-top: 10%;
 }
 
-#Twitter p{
+#Twitter p {
 	font-size: 12px;
 	padding-top: 12%;
 	padding-left: 9%;
@@ -122,7 +122,7 @@ a:hover {
 	color: white;
 }
 
-#Linkedin img{
+#Linkedin img {
 	width: 50px;
 	height: 30px;
 	margin: 0;
@@ -130,7 +130,7 @@ a:hover {
 	padding-top: 8%;
 }
 
-#Linkedin p{
+#Linkedin p {
 	font-size: 12px;
 	padding-top: 12%;
 	padding-left: 7%;
@@ -138,7 +138,7 @@ a:hover {
 	color: white;
 }
 
-#Medium img{
+#Medium img {
 	width: 50px;
 	height: 30px;
 	margin: 0;
@@ -146,10 +146,28 @@ a:hover {
 	padding-top: 8%;
 }
 
-#Medium p{
+#Medium p {
 	font-size: 12px;
 	padding-top: 12%;
 	padding-left: 7%;
 	margin: 0;
 	color: white;
+}
+
+#logo {
+	display: inline-flex;
+	flex: 30%;
+}
+
+#logo img {
+	height: 200px;
+}
+
+#texte {
+	flex: 100%;
+}
+
+#liens {
+	flex-direction: row;
+	flex: 70%;
 }
