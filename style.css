@@ -152,4 +152,19 @@ h2{
 	color: white;
 }
 
-/* ---------- */
+/* MAIN conteneur2 */
+span{
+	text-decoration: underline;
+	color: palevioletred;
+	font-weight: 800;
+}
+
+.conteneur2 a{
+    color: palevioletred;
+	font-weight: 800;
+}
+
+.conteneur2{
+	display: flex;
+}
+
