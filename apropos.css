@@ -65,6 +65,8 @@ main{
    color: palevioletred;
    font-family:'Abril Fatface', cursive;
    padding-bottom: 2%;
+   font-size: 60px;
+   font-weight: bold;
 }
 
 p{
