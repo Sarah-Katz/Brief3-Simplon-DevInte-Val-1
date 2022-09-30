@@ -1,81 +1,86 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    padding-left: 20%;
-    padding-right: 20%;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 /*Flex header*/
 
 .box {
-    display: flex;
-    flex-wrap: nowrap;
-    flex: 100%;
-    flex-direction: row;
-    justify-content: space-between;
+	display: flex;
+	flex-wrap: nowrap;
+	flex: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#logoacceuil {
+	margin-left: -45px;
 }
 
 nav {
-    align-self: center;
-    align-items: center;
-    display: block;
+	align-self: center;
+	align-items: center;
+	display: block;
 
 }
 
 ul {
-    list-style: none;
-    align-items: center;
+	list-style: none;
+	align-items: center;
 }
 
 li {
-    display: inline;
-    margin-left: 20px;
-    font-size: 14px;
-    font-weight: bold;
+	display: inline;
+	margin-left: 20px;
+	font-size: 14px;
+	font-weight: bold;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 	color: grey;
 }
 
 a:hover {
-        color: rgb(113, 43, 226);
+	color: rgb(113, 43, 226);
 }
 
 /* MAIN conteneur1 */
-h1{
+h1 {
 	color: palevioletred;
-	font-family:'Abril Fatface', cursive;
+	font-family: 'Abril Fatface', cursive;
 	padding-top: 5%;
 }
 
-.conteneur1{
+.conteneur1 {
 	display: flex;
 }
 
-.conteneur1-child2 img{
+.conteneur1-child2 img {
 	height: 400px;
 	width: 400px;
 }
 
-.conteneur1-child1 h1 ,h2{
+.conteneur1-child1 h1,
+h2 {
 	font-size: 50px;
 	margin-bottom: 0;
 }
 
-h2{
+h2 {
 	color: rgba(24, 18, 18, 0.795);
 	margin-top: 0;
 	font-weight: 500;
 }
-     
-.conteneur1-child1 p{
+
+.conteneur1-child1 p {
 	width: 80%;
 	font-size: 18px;
 }
-   
-  /* MAIN (social-network) but */
-.social-network-icon{
+
+/* MAIN (social-network) but */
+.social-network-icon {
 	height: 100px;
 	width: 600px;
 	display: flex;
@@ -83,7 +88,7 @@ h2{
 	justify-content: space-between;
 }
 
- #Twitter{
+#Twitter {
 	background-color: #00A2F5;
 	width: 190px;
 	height: 60px;
@@ -91,21 +96,21 @@ h2{
 }
 
 
-#Linkedin{
-    background-color: #0176B4;
+#Linkedin {
+	background-color: #0176B4;
 	width: 190px;
 	height: 60px;
 	display: flex;
 }
 
-#Medium{
+#Medium {
 	background-color: rgb(0, 0, 0);
 	width: 190px;
 	height: 60px;
 	display: flex;
 }
 
-#Twitter img{
+#Twitter img {
 	width: 40px;
 	height: 20px;
 	margin: 0;
@@ -113,7 +118,7 @@ h2{
 	padding-top: 10%;
 }
 
-#Twitter p{
+#Twitter p {
 	font-size: 12px;
 	padding-top: 12%;
 	padding-left: 9%;
@@ -121,7 +126,7 @@ h2{
 	color: white;
 }
 
-#Linkedin img{
+#Linkedin img {
 	width: 50px;
 	height: 30px;
 	margin: 0;
@@ -129,7 +134,7 @@ h2{
 	padding-top: 8%;
 }
 
-#Linkedin p{
+#Linkedin p {
 	font-size: 12px;
 	padding-top: 12%;
 	padding-left: 7%;
@@ -137,7 +142,7 @@ h2{
 	color: white;
 }
 
-#Medium img{
+#Medium img {
 	width: 50px;
 	height: 30px;
 	margin: 0;
@@ -145,7 +150,7 @@ h2{
 	padding-top: 8%;
 }
 
-#Medium p{
+#Medium p {
 	font-size: 12px;
 	padding-top: 12%;
 	padding-left: 7%;
@@ -154,18 +159,18 @@ h2{
 }
 
 /* MAIN conteneur2 */
-span{
+span {
 	text-decoration: underline;
 	color: palevioletred;
 	font-weight: 600;
 }
 
-.conteneur2 a{
-    color: palevioletred;
+.conteneur2 a {
+	color: palevioletred;
 	font-weight: 600;
 }
 
-.conteneur2{
+.conteneur2 {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 2%;
@@ -173,23 +178,23 @@ span{
 	text-align: justify;
 }
 
-.conteneur2 div{
+.conteneur2 div {
 	flex: 49%;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
-.conteneur2 div img{
+.conteneur2 div img {
 	width: 100%;
 }
 
-.gris{
+.gris {
 	color: rgb(61, 59, 59);
 	font-weight: bold;
 	font-size: 13px;
 }
 
-h3{
+h3 {
 	color: palevioletred;
 	font-weight: bolder;
 	font-size: 25px;
