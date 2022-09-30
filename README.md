@@ -22,7 +22,12 @@ Thomas : "Ce projet a été pour moi l'occasion de partager une partie de mes co
 
 Le groupe à su rapidement s'organiser et une ambiance de travail détendue mais productive est vite apparue. La division du travail en deux groupes de deux a été à mon sens la décision clé qui a permis une exécution rapide et efficace des instructions du projet, et de ce fait une livraison tout aussi rapide.
 
+# Groupe:
 
+-   [@Sarah K](https://github.com/Sarah-Katz/)
+-   [@Sabrina J](https://github.com/Binabambina)
+-   [@Thomas L](https://github.com/DonzerHD)
+-   [@Theo D](https://github.com/palardo)
 
 
 
